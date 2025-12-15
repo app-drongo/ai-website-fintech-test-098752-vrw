@@ -8,7 +8,7 @@ import { useState, useEffect } from 'react';
 import { useSmartNavigation } from '@/hooks/useSmartNavigation';
 
 const DEFAULT_HERO = {
-  title: 'Transform Your Financial Future',
+  title: 'Test Your Financial Future',
   subtitle:
     'Intelligent financial management powered by AI. Make smarter decisions, grow your wealth, and secure your future with our comprehensive platform.',
   ctaText: 'Start Free Trial',
@@ -19,19 +19,19 @@ const DEFAULT_HERO = {
   features: [
     {
       icon: 'TrendingUp',
-      title: 'Smart Analytics',
+      title: 'Test Your Financial Future',
       description:
         'AI-powered insights that help you understand your financial patterns and optimize spending',
     },
     {
       icon: 'Shield',
-      title: 'Bank-Level Security',
+      title: 'Test Your Financial Future',
       description:
         '256-bit encryption and multi-factor authentication keep your data safe and secure',
     },
     {
       icon: 'Zap',
-      title: 'Real-Time Tracking',
+      title: 'Test Your Financial Future',
       description:
         'Monitor your investments, expenses, and goals with live updates and instant notifications',
     },
