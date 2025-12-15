@@ -2,7 +2,7 @@
 
 import { Button } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator';
-import { Circle, Mail, Phone } from 'lucide-react';
+import { Linkedin, Mail, Phone } from 'lucide-react';
 import { useSmartNavigation } from '@/hooks/useSmartNavigation';
 
 const DEFAULT_FOOTER = {
@@ -43,9 +43,9 @@ export default function Footer(props: FooterProps) {
   const renderIcon = (iconName: string) => {
     switch (iconName) {
       case 'linkedin':
-        return <Circle className="h-5 w-5" />;
+        return <Linkedin className="h-5 w-5" />;
       default:
-        return <Circle className="h-5 w-5" />;
+        return <Linkedin className="h-5 w-5" />;
     }
   };
 
